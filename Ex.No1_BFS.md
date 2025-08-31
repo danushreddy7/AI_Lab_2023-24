@@ -45,7 +45,8 @@ print("Following is the Breadth-First Search")
 bfs(visited, graph, '5')    # function calling
 ```
 ### Output:
-<img width="502" height="335" alt="image" src="https://github.com/user-attachments/assets/615ede67-738a-459e-993f-03eb4864fcd9" />
+<img width="495" height="228" alt="image" src="https://github.com/user-attachments/assets/57ec6499-5c87-4202-9eae-963d91c050c4" />
+
 
 ## Result:
 Thus the breadth first search order was found sucessfully.
