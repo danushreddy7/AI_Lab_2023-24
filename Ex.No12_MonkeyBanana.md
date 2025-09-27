@@ -87,8 +87,12 @@ Step 7: Stop the program.<br>
 
 <img width="588" height="758" alt="image" src="https://github.com/user-attachments/assets/8956fe41-00c9-4ef7-a5d9-0a279fa2d288" /></br>
 
+<img width="602" height="697" alt="image" src="https://github.com/user-attachments/assets/13adab4d-93f9-4b43-9f6b-a8fea8897f21" /></br>
 
+<img width="602" height="697" alt="image" src="https://github.com/user-attachments/assets/0d425b3b-6553-4a7f-90ae-56ad728baad6" /></br>
 
+<img width="586" height="552" alt="image" src="https://github.com/user-attachments/assets/1aec3767-0d0f-4202-a79e-bb872d8dc430" /></br>
 
+<img width="587" height="560" alt="image" src="https://github.com/user-attachments/assets/c35545a6-3362-46cc-a187-1d06e505a090" /></br>
 ### Result:
 Thus the plan was found for the initial and goal state of given problem.
