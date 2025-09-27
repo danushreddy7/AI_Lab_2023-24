@@ -14,19 +14,44 @@ Write a Prolog program to build a medical Diagnosis Expert System.
         
 
 ### Program:
-
-
-
-
-
-
-
-
-
-
-
+```
+hypothesis(Patient,german_measles) :-
+    symptom(Patient,fever),
+    symptom(Patient,headache),
+    symptom(Patient,runny_nose),
+    symptom(Patient,rash).
+hypothesis(Patient,flu) :-
+    symptom(Patient,fever),
+    symptom(Patient,headache),
+    symptom(Patient,body_ache),
+    symptom(Patient,conjunctivitis),
+    symptom(Patient,chills),
+    symptom(Patient,sore_throat),
+    symptom(Patient,runny_nose),
+    symptom(Patient,cough).
+hypothesis(Patient,common_cold) :-
+    symptom(Patient,headache),
+    symptom(Patient,sneezing),
+    symptom(Patient,sore_throat).
+hypothesis(Patient,chicken_pox) :-
+    symptom(Patient,fever),
+    symptom(Patient,chills),
+    symptom(Patient,body_ache),
+    symptom(Patient,rash).
+hypothesis(Patient,measles) :-
+    symptom(Patient,cough),
+    symptom(Patient,sneezing),
+    symptom(Patient,runny_nose).
+symptom(raju,headache).
+symptom(raju,sneezing).
+symptom(raju,sore_throat).
+```
 ### Output:
+<img width="933" height="386" alt="489099461-5f65d9cf-ca03-4d65-8140-6428c9c785d2" src="https://github.com/user-attachments/assets/ff95352a-0308-4ebc-99b1-b9f2ff50b645" />
 
+<img width="931" height="357" alt="489098029-d8283ea3-84f8-4424-9531-eaea30e5f2d0" src="https://github.com/user-attachments/assets/5d88364b-fcba-4e7d-b0a0-5aca605bbc9f" />
+
+<img width="929" height="368" alt="489098067-6c190894-9303-40d6-a579-4fc0228a355d" src="https://github.com/user-attachments/assets/a3114281-8e4c-42d9-b080-1abacb2a70b2" />
 
 
 ### Result:
