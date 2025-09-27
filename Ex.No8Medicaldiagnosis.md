@@ -1,6 +1,6 @@
 # Ex.No: 8  Logic Programming –  Medical Diagnosis Expert System
-### DATE:                                                                            
-### REGISTER NUMBER : 
+### DATE: 13-09-2025                                                                           
+### REGISTER NUMBER : 212223040029
 ### AIM: 
 Write a Prolog program to build a medical Diagnosis Expert System.
 ###  Algorithm:
@@ -53,6 +53,7 @@ symptom(raju,sore_throat).
 
 <img width="929" height="368" alt="489098067-6c190894-9303-40d6-a579-4fc0228a355d" src="https://github.com/user-attachments/assets/a3114281-8e4c-42d9-b080-1abacb2a70b2" />
 
+<img width="929" height="351" alt="489098088-ff2f1947-cebd-4e81-a05b-39943fe5d334" src="https://github.com/user-attachments/assets/7eb90481-096b-444b-8422-62939fccc2f4" />
 
 ### Result:
 Thus the simple medical diagnosis system was built sucessfully.
