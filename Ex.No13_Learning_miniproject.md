@@ -18,12 +18,16 @@ To design and implement a supervised machine learning model that predicts whethe
 *   Loaded data into a Pandas DataFrame.
 
 *   Created derived columns:
+  
 
         *  Prev_Year_Sales → previous year’s sales
+    
 
         *  change → difference between current and previous year
+    
 
         *  Increase → binary label (1 = increase, 0 = decrease)
+    
 
 *   Removed missing values from the first record.
           
