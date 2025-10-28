@@ -19,13 +19,13 @@ To design and implement a supervised machine learning model that predicts whethe
 
 *   Created derived columns:
 
-        *          Prev_Year_Sales → previous year’s sales
+        *            Prev_Year_Sales → previous year’s sales
 
-        *         chnge → difference between current and previous year
+        *           chnge → difference between current and previous year
 
-        *         Increase → binary label (1 = increase, 0 = decrease)
+        *           Increase → binary label (1 = increase, 0 = decrease)
 
-        *         Removed missing values from the first record.
+        *           Removed missing values from the first record.
           
 
 ## Step 3 — Feature Selection
@@ -41,16 +41,16 @@ To design and implement a supervised machine learning model that predicts whethe
 
 ## Step 4 — Data Splitting & Scaling
 
-    *   Split dataset into training (80%) and testing (20%) sets.
+  *   Split dataset into training (80%) and testing (20%) sets.
 
-    *   Normalized data using StandardScaler to improve model learning.
+ *   Normalized data using StandardScaler to improve model learning.
     
 
 ## Step 5 — Model Training (Supervised Learning)
 
-    *   Used Random Forest Classifier as the main model.
+  *   Used Random Forest Classifier as the main model.
 
-    *   Trained model on the training data to learn patterns of increase/decrease.
+  *   Trained model on the training data to learn patterns of increase/decrease.
     
 
 ## Step 6 — Model Evaluation
