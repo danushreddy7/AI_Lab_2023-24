@@ -14,17 +14,17 @@ To design and implement a supervised machine learning model that predicts whethe
 
 ## Step 2 — Data Preprocessing
 
-    * Loaded data into a Pandas DataFrame.
+    *  Loaded data into a Pandas DataFrame.
 
-    * Created derived columns:
+    *  Created derived columns:
 
-         * Prev_Year_Sales → previous year’s sales
+          *  Prev_Year_Sales → previous year’s sales
 
-        * Change → difference between current and previous year
+          *  Change → difference between current and previous year
 
-       * Increase → binary label (1 = increase, 0 = decrease)
+          *  Increase → binary label (1 = increase, 0 = decrease)
 
-      * Removed missing values from the first record.
+          *  Removed missing values from the first record.
 
 ## Step 3 — Feature Selection
 
@@ -38,39 +38,40 @@ To design and implement a supervised machine learning model that predicts whethe
 
 ## Step 4 — Data Splitting & Scaling
 
-    * Split dataset into training (80%) and testing (20%) sets.
+    *  Split dataset into training (80%) and testing (20%) sets.
 
-    * Normalized data using StandardScaler to improve model learning.
+    *  Normalized data using StandardScaler to improve model learning.
 
 ## Step 5 — Model Training (Supervised Learning)
 
-    * Used Random Forest Classifier as the main model.
+    *  Used Random Forest Classifier as the main model.
 
-    * Trained model on the training data to learn patterns of increase/decrease.
+    *  Trained model on the training data to learn patterns of increase/decrease.
 
 ## Step 6 — Model Evaluation
 
-    * Tested model using the test set.
+    *  Tested model using the test set.
 
-    * Computed accuracy, confusion matrix, and classification report.
+    *  Computed accuracy, confusion matrix, and classification report.
 
-    * Compared actual vs predicted results in a tabular format.
+    *  Compared actual vs predicted results in a tabular format.
 
 ## Step 7 — Prediction for 2025
 
-   *  Used 2024 data as input to predict the next year trend (2025).
+   *   Used 2024 data as input to predict the next year trend (2025).
 
-    * If Prediction = 1, forecasted increase; otherwise, decrease.
+    *  If Prediction = 1, forecasted increase; otherwise, decrease.
 
-    * Estimated possible 2025 sales value (+3% or −3% from 2024).
+    *  Estimated possible 2025 sales value (+3% or −3% from 2024).
 
 ## Step 8 — Visualization
 
-    * Plotted a line graph showing BMW’s yearly sales trend (2010–2024).
+    *  Plotted a line graph showing BMW’s yearly sales trend (2010–2024).
 
-    * Highlighted each year’s performance (green = increase, red = decrease).
+    *  Highlighted each year’s performance (green = increase, red = decrease).
 
-    * Added a blue star marker (⭐) for the predicted 2025 trend.
+    *  Added a blue star marker (⭐) for the predicted 2025 trend.
+
 
 ### Program:
 ```
