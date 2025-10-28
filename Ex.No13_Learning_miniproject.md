@@ -19,13 +19,13 @@ To design and implement a supervised machine learning model that predicts whethe
 
 *   Created derived columns:
 
-*          Prev_Year_Sales → previous year’s sales
+        *          Prev_Year_Sales → previous year’s sales
 
-*         chnge → difference between current and previous year
+        *         chnge → difference between current and previous year
 
-*         Increase → binary label (1 = increase, 0 = decrease)
+        *         Increase → binary label (1 = increase, 0 = decrease)
 
-*         Removed missing values from the first record.
+        *         Removed missing values from the first record.
           
 
 ## Step 3 — Feature Selection
