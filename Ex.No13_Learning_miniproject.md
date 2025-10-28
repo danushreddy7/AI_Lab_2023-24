@@ -25,7 +25,7 @@ To design and implement a supervised machine learning model that predicts whethe
 
         *           Increase → binary label (1 = increase, 0 = decrease)
 
-*     Removed missing values from the first record.
+*   Removed missing values from the first record.
           
 
 ## Step 3 — Feature Selection
@@ -55,11 +55,11 @@ To design and implement a supervised machine learning model that predicts whethe
 
 ## Step 6 — Model Evaluation
 
-    *   Tested model using the test set.
+    *    Tested model using the test set.
 
-    *   Computed accuracy, confusion matrix, and classification report.
+    *    Computed accuracy, confusion matrix, and classification report.
 
-    *   Compared actual vs predicted results in a tabular format.
+    *    Compared actual vs predicted results in a tabular format.
     
 
 ## Step 7 — Prediction for 2025
