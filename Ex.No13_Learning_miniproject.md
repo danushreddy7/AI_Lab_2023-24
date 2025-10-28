@@ -1,6 +1,6 @@
 # Ex.No: 10 Learning – Use Supervised Learning  
-### DATE:                                                                            
-### REGISTER NUMBER : 
+### DATE: 28-10-2025                                                                           
+### REGISTER NUMBER :212223040029 
 ### AIM: 
 To design and implement a supervised machine learning model that predicts whether BMW’s worldwide sales will increase or decrease in the next year (2025) using historical sales data from 2010 to 2024, and to evaluate the model’s prediction accuracy with tabular and graphical representation.
 
@@ -8,69 +8,69 @@ To design and implement a supervised machine learning model that predicts whethe
 
 ## Step 1 — Data Collection
 
-    Collected BMW’s worldwide sales data for the years 2010–2024 (in millions of units).
+   * Collected BMW’s worldwide sales data for the years 2010–2024 (in millions of units).
 
-    Each year’s sales represent the total global deliveries reported by BMW Group.
+  *  Each year’s sales represent the total global deliveries reported by BMW Group.
 
 ## Step 2 — Data Preprocessing
 
-    Loaded data into a Pandas DataFrame.
+    * Loaded data into a Pandas DataFrame.
 
-    Created derived columns:
+ Created derived columns:
 
-    Prev_Year_Sales → previous year’s sales
+       * Prev_Year_Sales → previous year’s sales
 
-    Change → difference between current and previous year
+      * Change → difference between current and previous year
 
-    Increase → binary label (1 = increase, 0 = decrease)
+     * Increase → binary label (1 = increase, 0 = decrease)
 
-    Removed missing values from the first record.
+    * Removed missing values from the first record.
 
 ## Step 3 — Feature Selection
 
-    Selected relevant input features:
+   *  Selected relevant input features:
 
-    Prev_Year_Sales
+        * Prev_Year_Sales
 
-    Change
+        * Change
 
-    Target variable: Increase.
+* Target variable: Increase.
 
 ## Step 4 — Data Splitting & Scaling
 
-    Split dataset into training (80%) and testing (20%) sets.
+    * Split dataset into training (80%) and testing (20%) sets.
 
-    Normalized data using StandardScaler to improve model learning.
+    * Normalized data using StandardScaler to improve model learning.
 
 ## Step 5 — Model Training (Supervised Learning)
 
-    Used Random Forest Classifier as the main model.
+    * Used Random Forest Classifier as the main model.
 
-    Trained model on the training data to learn patterns of increase/decrease.
+    * Trained model on the training data to learn patterns of increase/decrease.
 
 ## Step 6 — Model Evaluation
 
-    Tested model using the test set.
+    * Tested model using the test set.
 
-    Computed accuracy, confusion matrix, and classification report.
+    * Computed accuracy, confusion matrix, and classification report.
 
-    Compared actual vs predicted results in a tabular format.
+    * Compared actual vs predicted results in a tabular format.
 
 ## Step 7 — Prediction for 2025
 
-    Used 2024 data as input to predict the next year trend (2025).
+   *  Used 2024 data as input to predict the next year trend (2025).
 
-    If Prediction = 1, forecasted increase; otherwise, decrease.
+    * If Prediction = 1, forecasted increase; otherwise, decrease.
 
-    Estimated possible 2025 sales value (+3% or −3% from 2024).
+    * Estimated possible 2025 sales value (+3% or −3% from 2024).
 
 ## Step 8 — Visualization
 
-    Plotted a line graph showing BMW’s yearly sales trend (2010–2024).
+    * Plotted a line graph showing BMW’s yearly sales trend (2010–2024).
 
-    Highlighted each year’s performance (green = increase, red = decrease).
+    * Highlighted each year’s performance (green = increase, red = decrease).
 
-    Added a blue star marker (⭐) for the predicted 2025 trend.
+    * Added a blue star marker (⭐) for the predicted 2025 trend.
 
 ### Program:
 ```
