@@ -19,11 +19,11 @@ To design and implement a supervised machine learning model that predicts whethe
 
 *   Created derived columns:
 
-        *            Prev_Year_Sales → previous year’s sales
+        *  Prev_Year_Sales → previous year’s sales
 
-        *           chnge → difference between current and previous year
+        *  change → difference between current and previous year
 
-        *           Increase → binary label (1 = increase, 0 = decrease)
+        *  Increase → binary label (1 = increase, 0 = decrease)
 
 *   Removed missing values from the first record.
           
@@ -55,11 +55,11 @@ To design and implement a supervised machine learning model that predicts whethe
 
 ## Step 6 — Model Evaluation
 
-    *    Tested model using the test set.
+    *  Tested model using the test set.
 
-    *    Computed accuracy, confusion matrix, and classification report.
+    *  Computed accuracy, confusion matrix, and classification report.
 
-    *    Compared actual vs predicted results in a tabular format.
+    *  Compared actual vs predicted results in a tabular format.
     
 
 ## Step 7 — Prediction for 2025
@@ -73,11 +73,11 @@ To design and implement a supervised machine learning model that predicts whethe
 
 ## Step 8 — Visualization
 
-    *   Plotted a line graph showing BMW’s yearly sales trend (2010–2024).
+    *  Plotted a line graph showing BMW’s yearly sales trend (2010–2024).
 
-    *   Highlighted each year’s performance (green = increase, red = decrease).
+    *  Highlighted each year’s performance (green = increase, red = decrease).
 
-    *   Added a blue star marker (⭐) for the predicted 2025 trend.
+    *  Added a blue star marker (⭐) for the predicted 2025 trend.
 
 
 ### Program:
