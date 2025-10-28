@@ -11,6 +11,7 @@ To design and implement a supervised machine learning model that predicts whethe
    * Collected BMW’s worldwide sales data for the years 2010–2024 (in millions of units).
 
   *  Each year’s sales represent the total global deliveries reported by BMW Group.
+    
 
 ## Step 2 — Data Preprocessing
 
@@ -25,6 +26,7 @@ To design and implement a supervised machine learning model that predicts whethe
           *  Increase → binary label (1 = increase, 0 = decrease)
 
           *  Removed missing values from the first record.
+          
 
 ## Step 3 — Feature Selection
 
@@ -36,17 +38,20 @@ To design and implement a supervised machine learning model that predicts whethe
 
 * Target variable: Increase.
 
+
 ## Step 4 — Data Splitting & Scaling
 
     *  Split dataset into training (80%) and testing (20%) sets.
 
     *  Normalized data using StandardScaler to improve model learning.
+    
 
 ## Step 5 — Model Training (Supervised Learning)
 
     *  Used Random Forest Classifier as the main model.
 
     *  Trained model on the training data to learn patterns of increase/decrease.
+    
 
 ## Step 6 — Model Evaluation
 
@@ -55,6 +60,7 @@ To design and implement a supervised machine learning model that predicts whethe
     *  Computed accuracy, confusion matrix, and classification report.
 
     *  Compared actual vs predicted results in a tabular format.
+    
 
 ## Step 7 — Prediction for 2025
 
@@ -63,6 +69,7 @@ To design and implement a supervised machine learning model that predicts whethe
     *  If Prediction = 1, forecasted increase; otherwise, decrease.
 
     *  Estimated possible 2025 sales value (+3% or −3% from 2024).
+    
 
 ## Step 8 — Visualization
 
