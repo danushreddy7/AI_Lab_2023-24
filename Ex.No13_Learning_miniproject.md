@@ -25,7 +25,7 @@ To design and implement a supervised machine learning model that predicts whethe
 
         *           Increase → binary label (1 = increase, 0 = decrease)
 
-        *           Removed missing values from the first record.
+*     Removed missing values from the first record.
           
 
 ## Step 3 — Feature Selection
